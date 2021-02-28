@@ -56,8 +56,17 @@
     border-top: 20px solid #e2e2e2;
 }
 
+.review-person {
+    display: flex;
+    justify-content: space-between;
+}
+
 .review-img { 
 margin-left: 40px;
+}
+
+.review-person_photo {
+    margin-left: 40px;
 }
 
 .review-person_name {
@@ -65,16 +74,10 @@ margin-left: 40px;
     font-weight: bold;
 }
 
-.review-person_photo {
-    margin-left: 40px;
-}
-
-.review-person {
-    display: flex;
-    justify-content: space-between;
-}
-
 .review-person_jobtitle {
     margin-top: 12px;
     color: #86878B;
 }
+
+
+
