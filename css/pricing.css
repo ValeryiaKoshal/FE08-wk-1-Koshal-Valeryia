@@ -1,0 +1,87 @@
+.pricing {
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    padding: 80px 0px;
+    background-color: #e5e5e5;
+}
+
+.pricing-title {
+    text-align: center;
+    margin-bottom: 34px;
+    font-family: 'Raleway', sans-serif;
+    color: #212121
+}
+
+.pricing-line {
+    margin: 0px auto 34px;
+    width: 67px;
+    height: 2px;
+    background-color: #d98943;
+}
+
+.pricing-description {
+    text-align: center;
+    margin-bottom: 63px;
+    color: #86878B;
+}
+
+.pricing-row {
+    display: flex;
+    justify-content: center; 
+}
+
+.option {
+    width: 100%;
+    max-width: 340px;
+    margin: 0 40px;
+} 
+
+.option-name {
+    margin-bottom: 1px;
+    padding: 15px 0px 8px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center; 
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.option-price {
+    margin-bottom: 1px;
+    padding: 15px 0px 8px;
+    font-size: 35px;
+    font-style: normal;
+    line-height: 42px;
+    font-family: 'Raleway', 'Open Sans';
+    font-weight: bold;
+    text-align: center;
+    background-color: #333333;
+    color: #ffffff; 
+} 
+
+.option-details {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 50px;
+    background-color: #333333;
+    color: #86878B;
+}
+
+.option-details_middle {
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+    background-color: #D98943;
+    color: #86878B;
+}
+
+.option-category {
+    text-align: center;
+    margin-top: 1px;
+    line-height: 40px;
+    background-color: #FFFFFF;
+    color: #86878B;
+}
