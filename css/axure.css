@@ -1,4 +1,5 @@
 .axure {
+    
     background-image: url("/img/background\ 1.png");
     background-position: center;
     background-size: cover;
@@ -36,10 +37,6 @@
     background-color: #ffffff;
     display: block;
     margin: 30px auto;
-}
-
-.axure-container .axure-title::after {
-    background-color: #ffffff;
 }
 
 .axure-description {
