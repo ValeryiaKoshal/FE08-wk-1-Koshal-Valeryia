@@ -38,14 +38,14 @@
     margin: 30px auto;
 }
 
+.axure-container .axure-title::after {
+    background-color: #ffffff;
+}
+
 .axure-description {
     text-align: center;
     color: #ffffff;
     font-family: 'Raleway', sans-serif;
-}
-
-.container-axure .axure-title::after {
-    background-color: #ffffff;
 }
 
 .axure-download_button {
