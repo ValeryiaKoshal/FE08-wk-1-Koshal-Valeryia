@@ -1,4 +1,11 @@
 @import url("../css/awesome.css");
+@import url("../css/pricing.css");
+@import url("../css/customers.css");
+@import url("../css/footer.css");
+@import url("../css/axure.css");
+@import url("../css/header.css");
+@import url("../css/social.css");
+@import url("../css/axit.css");
 
 * {
     margin: 0;
@@ -12,11 +19,6 @@
     max-width: 1170px;
     margin: auto;
     padding: 0 15px;
-}
-
-.awesome-row {
-    display: flex;
-    justify-content: space-between;
 }
 
 .title {    

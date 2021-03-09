@@ -1,0 +1,39 @@
+.social-media {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #f8efef;
+}
+
+h3 {
+    font-family: Open Sans, sans-serif;
+    color: #333333;
+    margin-bottom: 14px;
+}
+
+p {
+    font-family: Open Sans, sans-serif;
+    color: #86878b;
+}
+
+.social {
+    max-width: 365px;
+}
+
+.social-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media_icon {
+    display: flex;
+    width: 684px;
+    justify-content: space-between;
+    font-size: 34px;
+    margin-bottom: 10px;
+    align-self: center;
+    color: #bdbdbd
+}
+
+.fab {
+    margin-right: 20px;
+}
