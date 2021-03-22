@@ -12,6 +12,14 @@
     color: #212121
 }
 
+@media (max-width: 770px) {
+    .pricing-title {
+        text-align:start;
+        font-size: 1em;
+        margin-left: 30px;
+    }
+} 
+
 .pricing-line {
     margin: 0px auto 34px;
     width: 67px;
@@ -19,22 +27,42 @@
     background-color: #d98943;
 }
 
+@media (max-width: 770px) {
+    .pricing-line{
+        margin: 10px 30px;
+    }
+} 
+
 .pricing-description {
     text-align: center;
     margin-bottom: 63px;
     color: #86878B;
 }
 
+@media (max-width: 770px) {
+    .pricing-description {
+        text-align: start;
+        font-size: 13px;
+        margin-left: 30px;
+    }
+} 
+
 .pricing-row {
     display: flex;
+    margin: 0 -15px;
     justify-content: center; 
 }
 
 .option {
-    width: 100%;
-    max-width: 340px;
+    width: 340px;
     margin: 0 40px;
 } 
+
+@media (max-width: 770px) {
+    .option{
+    width: 290px;
+    }
+    }
 
 .option-name {
     margin-bottom: 1px;
@@ -85,3 +113,16 @@
     background-color: #FFFFFF;
     color: #86878B;
 }
+
+@media (max-width: 757px) {
+    .pricing-row {
+        display: block;
+        text-align: center;
+        margin-bottom: 30px;
+        margin-left: auto;
+    }
+    .option{
+        margin: 30px 0;
+    }
+    }
+  

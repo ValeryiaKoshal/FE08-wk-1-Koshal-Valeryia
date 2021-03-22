@@ -24,6 +24,14 @@ p {
     justify-content: space-between;
 }
 
+@media (max-width: 770px) {
+    .social-row {
+        display: block;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+} 
+
 .social-media_icon {
     display: flex;
     width: 684px;
@@ -34,6 +42,15 @@ p {
     color: #bdbdbd
 }
 
+@media (max-width: 770px) {
+    .social-media_icon {
+       justify-content: start;
+       font-size: 25px;
+       margin-left: 40px;
+    }
+} 
+
 .fab {
     margin-right: 20px;
 }
+

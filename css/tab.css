@@ -1,0 +1,106 @@
+.tabs {
+    padding: 100px 0;
+}
+
+.tab-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tab-coloumn {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin-right: 118px;
+}
+
+
+.tab-item {
+    display: block;
+    color: #ffffff;
+    background-color: #ec7979;
+    padding: 45px 35px;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    border: 0;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.tab-item:hover{
+    color: #E72424;
+    transition-property: color;
+}
+
+.tab-item:not(:first-child) {
+    background: #333333;
+    margin-top: 10px;
+}
+
+.tab-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 770px) {
+    .tab-container {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+.tab-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-right: 50px;
+}
+
+.tab-title {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 700;
+}
+
+@media (max-width: 770px) {
+    .tab-title {
+    font-size: 1em;
+
+}
+}
+
+.tabs-description p {
+    text-transform: uppercase;
+    line-height: 20px;
+    letter-spacing: 1.2;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.tab__download-btn a {
+    background-color: #ec7979;
+    color: #ffffff;
+    font-weight: 700;
+    display: block;
+    padding: 15px 30px;
+}
+
+.tab__download-btn.button {
+    border: 0;
+}
+
+.tab__download-btn.button:hover a {
+    color: #86878B;
+}
+
+@media (max-width: 770px) {
+    .city-image{
+        display: none
+    }
+}

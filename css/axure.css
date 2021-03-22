@@ -1,7 +1,8 @@
 .axure {
     background-image: url("/img/background\ 1.png");
-    background-position: center;
+    background-position: center center;
     background-size: cover;
+    background-repeat: no-repeat;
     padding: 60px 0 38px;
     position: relative;
 }
@@ -54,8 +55,4 @@
     color: #ffffff;
     padding: 11px 26px;
     border: 1px solid #ffffff;
-}
-
-.axure-download_button a:hover {
-    color: #86878b;
 }
